@@ -3,9 +3,9 @@ Weighted Sum of Gray Gases Model (WSGGM) Absorption Emission sub-model for OpenF
 
 Implemented based on:
 
-# T. F. Smith, Z. F. Shen, and J. N. Friedman. "Evaluation of Coefficients for the Weighted Sum of Gray Gases Model". J. Heat Transfer. 104. 602608. 1982.
+ T. F. Smith, Z. F. Shen, and J. N. Friedman. "Evaluation of Coefficients for the Weighted Sum of Gray Gases Model". J. Heat Transfer. 104. 602608. 1982.
 
-# R. Siegel and J. R. Howell. "Thermal Radiation Heat Transfer. Hemisphere Publishing Corporation, Washington DC. 1992.
+ R. Siegel and J. R. Howell. "Thermal Radiation Heat Transfer. Hemisphere Publishing Corporation, Washington DC. 1992.
 
 To select WSGGM model use the follwing options in radiationProperties
 
