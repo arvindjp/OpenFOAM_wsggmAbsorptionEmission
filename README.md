@@ -7,9 +7,11 @@ Implemented based on [Fluent User Guide] (http://www.afs.enea.it/project/neptuni
 * R. Siegel and J. R. Howell. "Thermal Radiation Heat Transfer. Hemisphere Publishing Corporation, Washington DC. 1992.
  
 To compile:
+
+     ```bash 
      cp -rf wsggmAbsorptionEmission $FOAM_SRC/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/.
      wmake
-
+     ```
 
 To select WSGGM model use the follwing options in radiationProperties:
 
