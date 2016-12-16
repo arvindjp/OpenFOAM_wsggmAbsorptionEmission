@@ -1,14 +1,17 @@
-# OpenFOAM_wsggmAbsorptionEmission
-Weighted Sum of Gray Gases Model (WSGGM) Absorption Emission sub-model for OpenFOAM 4.1
+# Weighted Sum of Gray Gases Model (WSGGM) Absorption Emission sub-model for OpenFOAM 4.1
 
-Implemented based on [Fluent User manual] (http://www.afs.enea.it/project/neptunius/docs/fluent/html/th/node117.htm) and the following references:
+Implemented based on [Fluent User Guide] (http://www.afs.enea.it/project/neptunius/docs/fluent/html/th/node117.htm) and the following references:
 
 * T. F. Smith, Z. F. Shen, and J. N. Friedman. "Evaluation of Coefficients for the Weighted Sum of Gray Gases Model". J. Heat Transfer. 104. 602608. 1982.
 
 * R. Siegel and J. R. Howell. "Thermal Radiation Heat Transfer. Hemisphere Publishing Corporation, Washington DC. 1992.
  
+To compile:
+     cp -rf wsggmAbsorptionEmission $FOAM_SRC/src/thermophysicalModels/radiation/submodels/absorptionEmissionModel/.
+     wmake
 
-To select WSGGM model use the follwing options in radiationProperties
+
+To select WSGGM model use the follwing options in radiationProperties:
 
       absorptionEmissionModel wsggmAbsorptionEmission;
 
